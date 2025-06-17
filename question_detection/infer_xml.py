@@ -7,10 +7,10 @@ import pytesseract  # 添加OCR支持
 import re
 
 # 配置路径
-model_path = '/hpc2hdd/home/xli839/lxy/work/yolo-main/runs/detect/train/weights/best.pt'
-# image_folder = '/hpc2hdd/home/xli839/lxy/work/yolo-main/dataset/images/val'
-image_folder = '/hpc2hdd/home/xli839/lxy/work/data/data/英语'
-output_folder = '/hpc2hdd/home/xli839/lxy/work/yolo-main/dataset/xml_output'
+model_path = 'work/yolo-main/runs/detect/train/weights/best.pt'
+# image_folder = 'work/yolo-main/dataset/images/val'
+image_folder = 'work/data/data/英语'
+output_folder = 'work/yolo-main/dataset/xml_output'
 
 # 创建输出文件夹
 os.makedirs(output_folder, exist_ok=True)
