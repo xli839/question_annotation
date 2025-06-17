@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
-model_name = '/hpc2hdd/home/xli839/lxy/work/yolo-main/pre_model/yolov8s.pt'
-data_name ='/hpc2hdd/home/xli839/lxy/work/yolo-main/dataset/data_multi.yaml'
+model_name = 'work/yolo-main/pre_model/yolov8s.pt'
+data_name ='work/yolo-main/dataset/data_multi.yaml'
 
 # Load a model
 model = YOLO(model_name)  # load a pretrained model (recommended for training)
