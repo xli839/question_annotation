@@ -6,8 +6,8 @@ import xml.etree.ElementTree as ET
 from PIL import Image
 
 # 参数
-SOURCE_DIRS = ['/hpc2hdd/home/xli839/lxy/work/data/data/chinese', '/hpc2hdd/home/xli839/lxy/work/data/data/math']
-TARGET_DIR = '/hpc2hdd/home/xli839/lxy/work/yolo-main/dataset'
+SOURCE_DIRS = ['work/data/data/chinese', 'work/data/data/math']
+TARGET_DIR = 'work/yolo-main/dataset'
 LABEL_CLASS = 0  # 统一使用一个类别编号
 
 CLASS_MAPPING = {
