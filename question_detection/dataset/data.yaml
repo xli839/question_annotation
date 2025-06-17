@@ -1,0 +1,6 @@
+path: /hpc2hdd/home/xli839/lxy/work/yolo-main/dataset
+train: images/train
+val: images/val
+
+names:
+  0: Question
