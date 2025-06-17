@@ -108,8 +108,8 @@ if __name__ == "__main__":
     dataset_dir = "/hpc2hdd/home/xli839/lxy/work/yolo-main/dataset"  # 数据集根目录
     output_dir = "yolo-main/dataset/annotated_val"  # 输出目录
     
-    # 可选：设置类别名称
-    class_names = ["q"]  # 替换为您的实际类别名称
+    
+    class_names = ["q"] 
     
     # 处理验证集
     process_validation_set(dataset_dir, output_dir, class_names)
