@@ -15,7 +15,7 @@ def count_classes(label_dir):
     return class_counts
 
 # 统计训练集
-train_label_dir = '/hpc2hdd/home/xli839/lxy/work/yolo-main/dataset/labels/val'
+train_label_dir = 'work/yolo-main/dataset/labels/val'
 train_counts = count_classes(train_label_dir)
 
 print("训练集类别分布：")
