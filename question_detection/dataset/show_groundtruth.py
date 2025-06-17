@@ -1,9 +1,3 @@
-# (base) xli839@a22821510cec:~/lxy/work$ ls yolo-main/dataset/images/train/*.jpg | wc -l
-# 432
-# (base) xli839@a22821510cec:~/lxy/work$ ls yolo-main/dataset/images/val/*
-# .jpg | wc -l
-# 108
-
 import os
 import cv2
 import numpy as np
