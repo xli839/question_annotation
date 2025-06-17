@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 from PIL import Image
 
 # 参数
-SOURCE_DIRS = ['/hpc2hdd/home/xli839/lxy/work/data/data/chinese', '/hpc2hdd/home/xli839/lxy/work/data/data/math']
+SOURCE_DIRS = ['work/data/data/chinese', 'work/data/data/math']
 TARGET_DIR = 'dataset'
 LABEL_CLASS = 0  # 统一使用一个类别编号
 
@@ -82,4 +82,4 @@ names:
 with open(os.path.join(TARGET_DIR, 'data.yaml'), 'w') as f:
     f.write(yaml_content)
 
-print("✅ 数据处理完毕，可用于YOLOv8训练！")
+print("数据处理完毕，可用于YOLOv8训练！")
