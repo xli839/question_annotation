@@ -5,11 +5,11 @@ import json
 import time  # 添加time模块
 
 # 配置路径
-model_path = '/hpc2hdd/home/xli839/lxy/work/yolo-main/runs/detect/train/weights/best.pt'
-# image_folder = '/hpc2hdd/home/xli839/lxy/work/yolo-main/dataset/images/val'
-image_folder = '/hpc2hdd/home/xli839/lxy/work/data/data/英语'
-output_json = '/hpc2hdd/home/xli839/lxy/work/yolo-main/dataset/output_boxes_2.json'
-output_images_folder = '/hpc2hdd/home/xli839/lxy/work/yolo-main/dataset/annotated_val'  # 新增输出图片文件夹
+model_path = 'work/yolo-main/runs/detect/train/weights/best.pt'
+# image_folder = 'work/yolo-main/dataset/images/val'
+image_folder = 'work/data/data/英语'
+output_json = 'work/yolo-main/dataset/output_boxes_2.json'
+output_images_folder = 'work/yolo-main/dataset/annotated_val'  # 新增输出图片文件夹
 
 # 创建输出图片文件夹
 os.makedirs(output_images_folder, exist_ok=True)
