@@ -102,11 +102,11 @@ pip install ultralytics opencv-python tqdm numpy Pillow paddleocr paddlepaddle
 
 ## 结果说明
 
-生成的 XML 文件采用标准 VOC 格式，每个 object 的标签为 `页码-编号`，例如：
+生成的 XML 文件采用标准 VOC 格式，每个 object 的标签为 `页码-题号-序号`，例如：
 
 ```xml
 <object>
-  <name>15-2</name>  <!-- 第15页，第2道题 -->
+  <name>15-2-1</name>  <!-- 第15页，第2道大题，第一小题 -->
   <bndbox>
     <xmin>...</xmin>
     <ymin>...</ymin>
