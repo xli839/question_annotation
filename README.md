@@ -128,7 +128,7 @@ pip install ultralytics opencv-python tqdm numpy Pillow paddleocr paddlepaddle
 ## 示例图像要求
 
 - 图像需包含底部页码信息；
-- 文件名可反映页码（非必须）；
+- 题目名可反映“页码-题号-序号”
 - 支持 `.jpg`、`.png`、`.jpeg` 格式。
 
 ---
