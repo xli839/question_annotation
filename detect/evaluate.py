@@ -6,10 +6,10 @@ from glob import glob
 from tqdm import tqdm
 
 # ==== 设置路径 ====
-pred_dir = "/hpc2hdd/home/xli839/lxy/work/results/new/math"
-gt_dir = '/hpc2hdd/home/xli839/lxy/work/data/data/new_data/new_data/数学/数学-北师大版-二年级下册-同步伴读综合练习(春)(2025)题目'
+pred_dir = "../output_folder/math"
+gt_dir = '../dataset/数学/数学-北师大版-二年级下册-同步伴读综合练习(春)(2025)题目'
 image_dir = gt_dir  # 图片和gt同目录
-save_dir = "/hpc2hdd/home/xli839/lxy/work/results/vis_output/math"
+save_dir = "../output_folder/vis_output/math"
 os.makedirs(save_dir, exist_ok=True)
 
 # ==== IoU 计算 ====
