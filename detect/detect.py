@@ -75,8 +75,8 @@ logging.getLogger('ppocr').setLevel(logging.ERROR)  # 设置 ppocr 日志级别
 
 # 配置路径
 model_path = './weights/best_2class.pt'
-image_folder = '../data/data/new_data/new_data/数学/数学-北师大版-二年级下册-同步伴读综合练习(春)(2025)题目'
-output_folder = '../results/new/math'
+image_folder = '../dataset/数学/数学-北师大版-二年级下册-同步伴读综合练习(春)(2025)题目'
+output_folder = '../output_folder/math'
 
 # 创建输出文件夹
 os.makedirs(output_folder, exist_ok=True)
