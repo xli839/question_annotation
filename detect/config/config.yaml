@@ -1,0 +1,19 @@
+# 模型配置
+model_path: "/hpc2hdd/home/xli839/lxy/work/yolo/runs/detect/train2/weights/best.pt"
+
+# 数据路径配置
+image_folder: "/hpc2hdd/home/xli839/lxy/work/data/data/math"
+output_folder: "/hpc2hdd/home/xli839/lxy/work/results/math"
+
+# 日志配置
+log_level: "INFO"
+log_file: "detect.log"
+
+# 文件夹名称
+folder_name: "数学-人教版-三年级下册-53天天练(春)(2025)-题目"
+
+# PaddleOCR配置（可选）
+paddle_config:
+  use_angle_cls: false
+  drop_score: 0.5
+  det_box_type: "quad"

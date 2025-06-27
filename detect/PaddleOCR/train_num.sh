@@ -1,0 +1,3 @@
+# python tools/infer/infer_num.py  --image_dir="/hpc2hdd/home/xli839/lxy/work/data/data/英语" --det_model_dir="./inference_model/ch_PP-OCRv3_det_infer/" --rec_model_dir="./inference_model/ch_PP-OCRv3_rec_infer"
+# python tools/infer/predict_system.py  --image_dir="/hpc2hdd/home/xli839/lxy/work/data/data/英语" --det_model_dir="./inference_model/ch_PP-OCRv3_det_infer/" --rec_model_dir="./inference_model/ch_PP-OCRv3_rec_infer"
+python tools/infer/infer_tihao.py  --image_dir="/hpc2hdd/home/xli839/lxy/work/data/data/new_data/new_data/语文/语文-人教(部编)-六年级下册-亮点给力提优课时作业本(春)(2024)题目" --det_model_dir="./inference_model/ch_PP-OCRv3_det_infer/" --rec_model_dir="./inference_model/ch_PP-OCRv3_rec_infer"

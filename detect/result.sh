@@ -1,0 +1,1 @@
+python detect_copy.py  --det_model_dir="/hpc2hdd/home/xli839/lxy/work/PaddleOCR/inference_model/ch_PP-OCRv3_det_infer/" --rec_model_dir="/hpc2hdd/home/xli839/lxy/work/PaddleOCR/inference_model/ch_PP-OCRv3_rec_infer"
